@@ -32,6 +32,14 @@ module.exports = {
           },
         ],
       },
+      {
+        test: /\.(png|jpe?g|git|svg)$/i,
+        use: [
+          {
+            loader: "file-loader",
+          }
+        ]
+      }
     ],
   },
   plugins: [
