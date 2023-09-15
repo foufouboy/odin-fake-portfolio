@@ -30,13 +30,13 @@ const Footer = () => {
                         </p>
                     </span>
                     <span className="social-links">
-                        <a href="#">
+                        <a href="https://github.com/foufouboy" target="_blank">
                             <img src={Github} alt="github-icon" />
                         </a>
-                        <a href="#">
+                        <a href="https://www.codewars.com/users/foufouboy" target="_blank">
                             <img src={Codewars} alt="codewars-icon" />
                         </a>
-                        <a href="#">
+                        <a href="https://lichess.org/SlymDunk" target="_blank">
                             <img src={Lichess} alt="lichess-icon" />
                         </a>
                     </span>

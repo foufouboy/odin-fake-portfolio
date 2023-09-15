@@ -20,13 +20,13 @@ const Header = () => {
                     </h2>
                     <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Rerum consectetur doloribus nam ipsum illo amet nemo, exercitationem nobis, debitis alias aut error dignissimos voluptates velit et iusto excepturi sit temporibus, fugit quasi quibusdam vero iste id magnam! Illo porro molestias quia eos modi obcaecati laborum. Modi repudiandae rerum expedita cupiditate!</p>
                     <span>
-                        <a href="">
+                        <a href="https://codewars.com/users/foufouboy" target="_blank">
                             <img src={CWIcon} alt="codewars-link" />
                         </a>
-                        <a href="">
+                        <a href="https://github.com/foufouboy/" target="_blank">
                             <img src={GHIcon} alt="github-link" />
                         </a>
-                        <a href="">
+                        <a href="https://lichess.org/@/SlymDunk" target="_blank">
                             <img src={LCIcon} alt="lichess-link" />
                         </a>
                     </span>

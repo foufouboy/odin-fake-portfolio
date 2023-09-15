@@ -9,10 +9,10 @@ const ProjectCard = ({data}) => {
             <div className="project-infos">
                 <div className="name-and-links">
                     <h3>{data.name}</h3>
-                    <a href={data.github}>
+                    <a href={data.github} target="_blank">
                         <img src={GithubIcon} alt="github-icon" />
                     </a>
-                    <a href={data.live}>
+                    <a href={data.live} target="_blank">
                         <img src={NewTabIcon} alt="new-tab-icon" />
                     </a>
                 </div>
