@@ -46,6 +46,7 @@ const StyledHeader = styled.header`
 
     background-size: contain;
     padding: 50px 50px;
+    padding-bottom: 0;
     display: flex;
     justify-content: center;
 
@@ -70,7 +71,8 @@ const StyledHeader = styled.header`
         display: flex;
         flex-direction: column;
         gap: 20px;
-        box-shadow: 0 0 5px rgb(0, 0, 0, .5); }
+        box-shadow: 2px 2px 5px rgb(100, 100, 100, .5);
+    }
 
     .profile-photo {
         width: 390px;
@@ -107,19 +109,16 @@ const StyledHeader = styled.header`
     @media (min-width: 1900px) {
         background-image: 
             linear-gradient(to bottom, 
-                rgb(50, 95, 278, .9),
-                rgb(50, 95, 278, .9)),
+                rgb(50, 95, 278, .8),
+                rgb(50, 95, 278, .8)),
                 url(${Background});
         
         box-shadow: 0 2px 10px rgb(100, 100, 100);
-        border-bottom: 5px solid rgb(50, 95, 278);
     }
 
 
     @media (max-width: 950px) {
-        padding: 30px;
-        background-size: cover;
-        background-repeat: no-repeat;
+        background-size: contain;
 
         span h1 {
             font-size: 3.7rem;
@@ -162,25 +161,7 @@ const StyledHeader = styled.header`
     }
 
     @media (max-width: 600px) {
-        background-image: 
-            linear-gradient(to bottom, 
-                rgb(50, 95, 278, .8),
-                rgb(50, 95, 278, .8)),
-                url(${MobileBackground});
-        
-        .about-me {
-            background: #2563eb ;
-
-            h2 {
-                color: white;
-                text-shadow: 3px 0 black;
-
-            }
-
-            p {
-                color: white;
-            }
-        }
+        padding: 30px;
     }
 `
 
