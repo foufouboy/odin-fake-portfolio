@@ -71,7 +71,7 @@ const StyledHeader = styled.header`
         display: flex;
         flex-direction: column;
         gap: 20px;
-        box-shadow: 2px 2px 5px rgb(100, 100, 100, .5);
+        box-shadow: 0px 0px 0px 1px rgb(183 167 167), 11px 13px #ff9f45;
     }
 
     .profile-photo {
@@ -114,6 +114,7 @@ const StyledHeader = styled.header`
                 url(${Background});
         
         box-shadow: 0 2px 10px rgb(100, 100, 100);
+        padding: 50px;
     }
 
 

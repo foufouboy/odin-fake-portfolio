@@ -36,7 +36,7 @@ const MainStyled = styled.main`
         font-size: 2rem;
     }
 
-    @media (max-width: 600px) {
+    @media (max-width: 650px) {
         padding-left: 20px;
         padding-right: 20px;
 

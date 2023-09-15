@@ -27,7 +27,7 @@ const StyledProjectCard = styled.div`
     flex-flow: column;
     box-shadow: 2px 2px 5px rgb(100, 100, 100, .5);
     border-radius: 7px;
-    border-bottom: 5px solid #93c5fd;
+    border-bottom: 5px solid #FFAA5B;
 
     .project-image {
         object-fit: cover;
@@ -69,7 +69,7 @@ const StyledProjectCard = styled.div`
         }
 
         a:last-child {
-            margin-left: 5px;
+            margin-left: 15px;
         }
     }
 `;
